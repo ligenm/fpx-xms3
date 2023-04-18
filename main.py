@@ -3,6 +3,7 @@
 # @time : 2023/4/13 10:10
 import time
 from selenium import webdriver
+
 driver = webdriver.Chrome()
 url = 'https://sso-test.i4px.com/login?service=https://daily-idms2-manager.i4px.com//cas'
 driver.get(url)
