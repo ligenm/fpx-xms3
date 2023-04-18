@@ -12,6 +12,7 @@ driver.get(url)
 # driver.set_window_size(1600,1200)
 # 浏览器窗口最大化
 driver.maximize_window()
+# 点击账号登录
 driver.find_element_by_id('login-type-i').click()
 driver.find_element_by_id('username').send_keys('S9638')
 driver.find_element_by_id('passwordOrg').send_keys('lgm#90621')
