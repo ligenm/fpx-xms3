@@ -10,6 +10,7 @@ driver.get(url)
 
 # 设置浏览器窗口大小
 # driver.set_window_size(1600,1200)
+# 浏览器窗口最大化
 driver.maximize_window()
 driver.find_element_by_id('login-type-i').click()
 driver.find_element_by_id('username').send_keys('S9638')
